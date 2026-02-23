@@ -1,0 +1,86 @@
+<svg width="1000" height="428" viewBox="0 0 7000 3000" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    西墙总长: 7000mm (0 - 7000)
+    净高: 3000mm
+    分区:
+    1. 入口过渡 (左): 2050mm (0 - 2050)
+    2. 睡眠岛 (中): 3800mm (2050 - 5850)
+    3. 阳台留白 (右): 1150mm (5850 - 7000)
+  -->
+  
+  <!-- 背景色：纯白哑光乳胶漆 -->
+  <rect x="0" y="0" width="7000" height="3000" fill="#F5F5F5" />
+
+  <!-- 1. 入口过渡区 (White Entry) -->
+  <!-- 极窄条案 (1200x750) -->
+  <rect x="425" y="2250" width="1200" height="750" fill="none" stroke="#333" stroke-width="5" />
+  <line x1="425" y1="2250" x2="1625" y2="2250" stroke="#333" stroke-width="10" /> <!-- 台面 -->
+  <!-- 落地镜示意 (Leaning Mirror) -->
+  <rect x="150" y="1200" width="500" height="1800" rx="20" fill="#E0E0E0" stroke="#333" stroke-width="3" opacity="0.5" />
+  <!-- 顶部洗墙灯光 -->
+  <defs>
+    <linearGradient id="wallWash" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFACD;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#F5F5F5;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <rect x="200" y="0" width="1600" height="800" fill="url(#wallWash)" />
+
+  <!-- 2. 睡眠岛 (Wood Box) - 突出体块 -->
+  <!-- 阴影模拟 10cm 落差 (左侧) -->
+  <rect x="2050" y="0" width="20" height="3000" fill="#000" opacity="0.3" /> 
+  
+  <!-- 下半墙：深灰硬包 (高1100mm) -->
+  <rect x="2050" y="1900" width="3800" height="1100" fill="#5A5A5A" />
+  <!-- 上半墙：暖灰木纹 (高1900mm) -->
+  <rect x="2050" y="0" width="3800" height="1900" fill="#C8C1B8" />
+  <!-- 纹理示意 (竖纹) -->
+  <line x1="2500" y1="0" x2="2500" y2="1900" stroke="#B0A89E" stroke-width="2" opacity="0.5" />
+  <line x1="3500" y1="0" x2="3500" y2="1900" stroke="#B0A89E" stroke-width="2" opacity="0.5" />
+  <line x1="4500" y1="0" x2="4500" y2="1900" stroke="#B0A89E" stroke-width="2" opacity="0.5" />
+  <line x1="5500" y1="0" x2="5500" y2="1900" stroke="#B0A89E" stroke-width="2" opacity="0.5" />
+
+  <!-- 中腰线性灯带 (4000K) -->
+  <rect x="2050" y="1880" width="3800" height="20" fill="#FFFACD" />
+  <!-- 灯带发光效果 -->
+  <rect x="2050" y="1850" width="3800" height="80" fill="url(#wallWash)" opacity="0.5" />
+
+  <!-- L型折边 (右侧收口) -->
+  <rect x="5850" y="0" width="10" height="3000" fill="#8B7D6B" /> <!-- 侧封板示意 -->
+  <!-- 阴影缝 (3mm) -->
+  <line x1="5860" y1="0" x2="5860" y2="3000" stroke="#000" stroke-width="3" opacity="0.6" />
+
+  <!-- 床示意 (宽1800mm, 高1000mm) -->
+  <rect x="3050" y="2000" width="1800" height="1000" fill="#D3D3D3" stroke="#666" stroke-width="3" rx="10" />
+  <text x="3950" y="2500" font-family="Arial" font-size="60" fill="#666" text-anchor="middle">King Bed (1800)</text>
+
+  <!-- 3. 阳台留白区 (Pure White) -->
+  <!-- 立式空调 (宽500mm, 高1800mm) -->
+  <rect x="5900" y="1200" width="450" height="1800" fill="#FFF" stroke="#CCC" stroke-width="3" rx="10" />
+  <text x="6125" y="2000" font-family="Arial" font-size="40" fill="#999" text-anchor="middle">AC</text>
+  <!-- Eames Lounge Chair 示意 -->
+  <circle cx="6600" cy="2400" r="300" fill="#654321" opacity="0.8" />
+  <rect x="6500" y="2700" width="200" height="150" fill="#654321" opacity="0.8" /> <!-- 脚踏 -->
+  <text x="6600" y="2400" font-family="Arial" font-size="40" fill="#FFF" text-anchor="middle">Lounge</text>
+
+  <!-- 尺寸标注 -->
+  <line x1="0" y1="2800" x2="2050" y2="2800" stroke="#000" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)" />
+  <text x="1025" y="2750" font-family="Arial" font-size="50" fill="#000" text-anchor="middle">入口过渡 2050</text>
+
+  <line x1="2050" y1="2800" x2="5850" y2="2800" stroke="#000" stroke-width="2" />
+  <text x="3950" y="2750" font-family="Arial" font-size="50" fill="#000" text-anchor="middle">睡眠岛 (Wood Box) 3800</text>
+
+  <line x1="5850" y1="2800" x2="7000" y2="2800" stroke="#000" stroke-width="2" />
+  <text x="6425" y="2750" font-family="Arial" font-size="50" fill="#000" text-anchor="middle">阳台留白 1150</text>
+
+  <!-- 详细说明 -->
+  <text x="50" y="100" font-family="Arial" font-size="40" fill="#333">
+    1. 入口白墙: 冲筋找平, 无木作
+  </text>
+  <text x="50" y="160" font-family="Arial" font-size="40" fill="#333">
+    2. 10cm落差: 木饰面凸出
+  </text>
+  <text x="5900" y="100" font-family="Arial" font-size="40" fill="#333">
+    3. 折边: 100mm厚, 3mm缝
+  </text>
+</svg>
