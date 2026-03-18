@@ -1,0 +1,105 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="100%" height="100%" fill="#f5f5f5" />
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">Plan C 全案色彩材质体系 (Complete Material Palette)</text>
+  
+  <!-- 第一行：核心基调 (Foundation) -->
+  <g transform="translate(50, 70)">
+    <!-- 1. 墙面: 菱花白 -->
+    <g transform="translate(0, 0)">
+      <rect width="120" height="120" rx="8" ry="8" fill="#F2EFE8" stroke="#ddd" stroke-width="1"/>
+      <text x="60" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">墙面: 菱花白</text>
+      <text x="60" y="155" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">OW038-4 (暖白)</text>
+    </g>
+    
+    <!-- 2. 地面: 暖灰色 (亮光) -->
+    <g transform="translate(150, 0)">
+      <rect width="120" height="120" rx="8" ry="8" fill="#C5C1BB" />
+      <!-- 添加高光模拟亮光砖 -->
+      <path d="M150 0 L270 0 L220 120 L150 120 Z" fill="white" fill-opacity="0.15"/>
+      <text x="60" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">地面: 暖灰色</text>
+      <text x="60" y="155" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">亮光超平釉</text>
+    </g>
+    
+    <!-- 3. 柜门: 羊脂白 (肤感) -->
+    <g transform="translate(300, 0)">
+      <rect width="120" height="120" rx="8" ry="8" fill="#F8F6F1" stroke="#ddd" stroke-width="1"/>
+      <text x="60" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">柜门: 羊脂白</text>
+      <text x="60" y="155" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">PET肤感膜</text>
+    </g>
+  </g>
+
+  <!-- 第二行：骨架与金属 (Skeleton & Metal) -->
+  <g transform="translate(50, 250)">
+    <!-- 4. 踢脚线: 哑光黑 -->
+    <g transform="translate(0, 0)">
+      <rect width="120" height="120" rx="8" ry="8" fill="#1A1A1A" />
+      <text x="60" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">踢脚线: 哑光黑</text>
+      <text x="60" y="155" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">Matte Black</text>
+    </g>
+    
+    <!-- 5. 门/柜骨架: 深炭灰 -->
+    <g transform="translate(150, 0)">
+      <rect width="120" height="120" rx="8" ry="8" fill="#363636" />
+      <text x="60" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">门/柜骨架: 深炭灰</text>
+      <text x="60" y="155" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">木纹/岩板</text>
+    </g>
+    
+    <!-- 6. 玻璃门: 灰色玻璃 -->
+    <g transform="translate(300, 0)">
+      <rect width="120" height="120" rx="8" ry="8" fill="#5A6369" fill-opacity="0.6" stroke="#1A1A1A" stroke-width="4"/>
+      <text x="60" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">玻璃: 灰玻+黑框</text>
+      <text x="60" y="155" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">极窄黑框</text>
+    </g>
+  </g>
+
+  <!-- 第三行：软装点缀 (Soft Touch) -->
+  <g transform="translate(50, 430)">
+    <!-- 7. 沙发: 米灰色 -->
+    <g transform="translate(0, 0)">
+      <rect width="120" height="120" rx="8" ry="8" fill="#B0ACA5" />
+      <text x="60" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">沙发: 米灰色</text>
+      <text x="60" y="155" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">磨砂绒/棉麻</text>
+    </g>
+    
+    <!-- 8. 地毯/窗帘: 燕麦色 -->
+    <g transform="translate(150, 0)">
+      <rect width="120" height="120" rx="8" ry="8" fill="#D6CFC4" />
+      <text x="60" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">软装: 燕麦色</text>
+      <text x="60" y="155" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">窗帘/地毯</text>
+    </g>
+    
+    <!-- 9. 绿植: 鲜绿色 -->
+    <g transform="translate(300, 0)">
+      <rect width="120" height="120" rx="8" ry="8" fill="#4A7023" />
+      <text x="60" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">点缀: 鲜绿色</text>
+      <text x="60" y="155" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">天堂鸟/龟背竹</text>
+    </g>
+  </g>
+
+  <!-- 右侧：配色比例示意图 -->
+  <g transform="translate(550, 100)">
+    <text x="100" y="-10" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">空间色彩比例 (6:3:1)</text>
+    
+    <!-- 60% 背景色 -->
+    <rect x="0" y="20" width="200" height="240" fill="#F2EFE8" stroke="#ccc" />
+    <text x="100" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">60% 背景色</text>
+    <text x="100" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#999">墙面/顶面/柜门</text>
+
+    <!-- 30% 主角色 -->
+    <rect x="0" y="260" width="200" height="120" fill="#C5C1BB" />
+    <text x="100" y="320" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">30% 主角色</text>
+    <text x="100" y="340" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">地面/软装</text>
+
+    <!-- 10% 点缀色 -->
+    <rect x="0" y="380" width="200" height="40" fill="#363636" />
+    <text x="100" y="405" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#fff">10% 骨架色 (门/踢脚线)</text>
+    
+    <!-- 5% 跳色 -->
+    <rect x="150" y="350" width="40" height="40" fill="#B0ACA5" stroke="white" stroke-width="2"/>
+    <text x="210" y="375" font-family="Arial, sans-serif" font-size="12" fill="#333">主沙发</text>
+  </g>
+
+</svg>
